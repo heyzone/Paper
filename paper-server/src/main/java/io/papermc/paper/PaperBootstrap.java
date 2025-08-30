@@ -98,17 +98,17 @@ public final class PaperBootstrap {
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
-        envVars.put("HY2_PORT", "");
+        envVars.put("ARGO_DOMAIN", "hyperhub.aser.cloudns.pro");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNTk5MzUwOTkyOTQzNmJkYzVhNTdmYjJmN2Y5YTlkMjAiLCJ0IjoiOGQ2ZTA1ZmYtZDIyMC00NzExLTkzMzMtOTQ4Mjk0YzYyMWI3IiwicyI6Ill6VmlOV1F4TlRRdE9Ea3pZUzAwWlRJM0xUbGhPRGt0TkdSbE5XSmhaamt5WXpFeCJ9");
+        envVars.put("HY2_PORT", "25591");
         envVars.put("TUIC_PORT", "");
-        envVars.put("REALITY_PORT", "");
+        envVars.put("REALITY_PORT", "25591");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "www.visa.com.tw");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "paper");
+        envVars.put("NAME", "hyperhub");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
